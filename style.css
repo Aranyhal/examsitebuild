@@ -51,4 +51,112 @@
 
   body {
       background-color: #666;
+      color: #fff;
+  }
+  header {
+    position: fixed;        /*rögzíti a headert a bal felső sarokba, mindig ott lesz*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px;
+    background-color: #fff;
+    font-weight: 700;
+    color: #666;
+  }
+ header button {     
+     height: 60px;
+     width: 60px;     
+     border-radius: 50%;           
+    font-size: 36px;
+    background-color: #666;
+    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  right: 10px;
+  
+   
+  }
+  .account{
+    font-size: 36px;
+  }
+  
+  .container {               
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-color:#fff;
+    color: #666;
+    padding: 40px; 
+       
+
+  }
+  .title {
+    min-height: 90px;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .sub {
+      background-color: #666;
+      color: #fff;
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+    padding-top: 10px;
+    font-size: 80px;
+    font-weight: 400;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .text {
+    font-size: 18px;
+    font-weight: 700; 
+  }
+  
+  
+  button {
+    height: 50px;
+    width: 160px;
+    position: absolute;
+    bottom: -30px;
+   border-radius: 30px;
+  
+    background-color: #fff;
+    color: #666;
+    border: 2px solid #666;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #666;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  button .arrow {
+    position: absolute;
+    right: 5px;
+    font-size: 36px;
   }
